@@ -27,7 +27,6 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlarmManager
 import android.app.PendingIntent
-import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -39,11 +38,6 @@ import android.widget.TextView
 import com.google.firebase.database.*
 import java.io.Serializable
 import java.util.*
-import android.content.Context.ALARM_SERVICE
-import android.os.Build
-import android.support.annotation.RequiresApi
-
-
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var databaseRef: DatabaseReference
