@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194011919144",
+    "firebase_url": "https://cs380groupproject.firebaseio.com",
+    "project_id": "cs380groupproject",
+    "storage_bucket": "cs380groupproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194011919144:android:2624e3cb545102ef",
+        "android_client_info": {
+          "package_name": "edu.eou.richarad.handsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194011919144-k1llfpgu5bahojfin7bqp9r9f6d12th4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.eou.richarad.handsup",
+            "certificate_hash": "9512f710e85198c370e20526448ac2785546e977"
+          }
+        },
+        {
+          "client_id": "194011919144-amf55tk7jfjo75ghtqdhlcah64qo6isu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTZZK4bcRGHl1z8SjEGp-4Ywq30fVFhbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194011919144-amf55tk7jfjo75ghtqdhlcah64qo6isu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

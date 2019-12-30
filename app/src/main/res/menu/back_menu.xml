@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/back"
+            android:gravity = "right"
+            android:icon="@drawable/backicon"
+            android:title="@string/back"/>
+    <item
+            android:id="@+id/spacerOne"
+            android:gravity = "right"
+            android:title=""/>
+    <item
+            android:id="@+id/spacerTwo"
+            android:gravity = "right"
+            android:title=""/>
+    <item
+            android:id="@+id/spacerThree"
+            android:gravity = "right"
+            android:title=""/>
+    <item
+            android:id="@+id/spacerFour"
+            android:gravity = "right"
+            android:title=""/>
+
+</menu>

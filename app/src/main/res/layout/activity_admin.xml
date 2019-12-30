@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/lightYellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AdminActivity">
+
+    <android.support.design.widget.BottomNavigationView
+            android:id="@+id/AdminActNavView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="?android:attr/windowBackground"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/about_menu"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_constraintTop_toTopOf="@+id/nav_view"
+            android:layout_marginTop="60dp"
+            tools:layout_editor_absoluteX="0dp">
+        <TextView
+                android:id="@+id/DatabaseTitle"
+                android:gravity="center"
+                android:text="@string/database"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_alignParentTop="true"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="628dp"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="parent"
+                android:layout_marginTop="42dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="42dp"
+                android:layout_below="@+id/DatabaseTitle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true">
+
+            <Button
+                    android:text="Classroom"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ring"
+                    android:width="350dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteY="341dp"
+                    tools:layout_editor_absoluteX="208dp"
+                    android:id="@+id/classroom"/>
+            <Button
+                    android:text="Course Selection"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ring"
+                    android:width="350dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteY="341dp"
+                    tools:layout_editor_absoluteX="208dp"
+                    android:id="@+id/courseSelection"/>
+
+            <Button
+                    android:text="add a user"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring"
+                    android:width="350dp"
+                    android:height="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteY="341dp"
+                    tools:layout_editor_absoluteX="208dp"
+                    android:id="@+id/userActivity"/>
+
+            <Button
+                    android:text="@string/createAttendacne"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ring"
+                    android:width="350dp"
+                    android:height="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteY="341dp"
+                    tools:layout_editor_absoluteX="208dp"
+                    android:id="@+id/createAttendanceList"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
